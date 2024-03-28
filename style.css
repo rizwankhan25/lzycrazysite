@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
@@ -6,16 +6,20 @@
     font-size: 14px;
     font-weight: 500;
 }
-html,body{
+
+html,
+body {
     width: 100%;
     height: 100%;
 }
-.main{
+
+.main {
     width: 100vw;
     height: 100vh;
     background-color: #fff;
 }
-#home{
+
+#home {
     width: 100vw;
     min-height: 90vh;
     background-color: #fff;
@@ -23,7 +27,8 @@ html,body{
     align-items: center;
     justify-content: flex-end;
 }
-.center{
+
+.center {
     width: 87vw;
     height: 50vh;
     display: flex;
@@ -31,16 +36,18 @@ html,body{
     justify-content: space-between;
     /* background-color: red; */
 }
-#center_left{
+
+#center_left {
     width: 40vw;
     height: 36vh;
     background-image: url(image/holi.83decc93.webp);
     background-position: center;
     background-size: contain;
 }
-#center_right{
+
+#center_right {
     width: 42vw;
-    height: 48  vh;
+    height: 48 vh;
     display: flex;
     justify-content: center;
     /* background-color: black; */
@@ -52,11 +59,13 @@ html,body{
     border: 2px solid #cccccc4f;
     border-radius: 8px;
     background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 .form-group {
     margin-bottom: 20px;
 }
+
 .form-group input {
     width: 100%;
     padding: 15px;
@@ -66,12 +75,14 @@ html,body{
     background-color: #dadadaae;
     outline: none;
 }
+
 .btn-container {
     display: flex;
     justify-content: center;
     align-items: center;
     /* background-color: red; */
 }
+
 .btn-container button {
     padding: 16px 20px;
     border: none;
@@ -79,43 +90,51 @@ html,body{
     cursor: pointer;
     border: 1px solid blue;
 }
+
 .btn-login {
     width: 100vw;
-    background-color: rgb(4,12,74);
+    background-color: rgb(4, 12, 74);
     color: #fff;
 }
+
 .btn-login:hover {
     background-color: #fff;
     color: rgb(7, 7, 22);
 }
-.btn-container a{
+
+.btn-container a {
     color: #000;
     text-decoration: none;
 }
-.btn-container a:hover{
+
+.btn-container a:hover {
     text-decoration: underline;
 }
+
 .btn-forget-password {
     color: #007bff;
     background-color: transparent;
 }
+
 .btn-create-account {
     width: 100vw;
-    background-color: rgb(27,138,17);
-    color: rgb(245,194,14);
+    background-color: rgb(27, 138, 17);
+    color: rgb(245, 194, 14);
     font-weight: 600;
     font-size: 17px;
 }
+
 .modal {
     display: none;
     width: 100%;
     height: 100%;
     z-index: 1;
     overflow: auto;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     align-items: center;
     justify-content: center;
 }
+
 .modal-content {
     background-color: #fefefe;
     margin: 20% auto;
@@ -124,26 +143,31 @@ html,body{
     width: 80%;
     border-radius: 8px;
 }
+
 .signup-container {
     width: 400px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 .signup-container h2 {
     margin-bottom: 20px;
     text-align: center;
 }
+
 .form-group {
     margin-bottom: 20px;
 }
+
 .form-group label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
+
 .form-group input {
     width: 100%;
     padding: 8px;
@@ -151,43 +175,51 @@ html,body{
     border-radius: 4px;
     box-sizing: border-box;
 }
+
 .form-group input[type="submit"] {
     background-color: #1877f2;
     color: #fff;
     cursor: pointer;
 }
+
 .form-group input[type="submit"]:hover {
     background-color: #166fe5;
 }
+
 .form-group .terms {
     font-size: 12px;
     color: #65676b;
 }
+
 .form-group.dob {
     display: flex;
     justify-content: space-between;
 }
+
 .form-group.dob select {
     width: calc(32% - 5px);
 }
 
-.footer{
+.footer {
     width: 100vw;
     height: 10vh;
-    background-color: #dadada;
+    background-color: rgb(217,217,217);
 }
-.footer_part-1{
+
+.footer_part-1 {
     width: 100vw;
     height: 4vh;
     background-color: #dadada;
     border-bottom: 1px solid #000;
 }
-.footer_part-1 h5{
+
+.footer_part-1 h5 {
     padding: 6px;
     font-size: 18px;
     font-weight: 600;
 }
-.footer_part-2{
+
+.footer_part-2 {
     width: 100vw;
     height: 6vh;
     display: flex;
@@ -195,15 +227,96 @@ html,body{
     align-items: center;
     padding: 0 1.5vw;
 }
-.footer_part-2 a{
+
+.footer_part-2 a {
     color: #000;
     text-decoration: none;
 }
-.footer_left{
+
+.footer_left {
     display: flex;
     gap: 2vw;
 }
-.footer_right{
+
+.footer_right {
     display: flex;
     gap: 2vw;
+}
+.footer_left :nth-last-child(1){
+    color: green;
+}
+label {
+    display: block;
+    font-weight: bold;
+}
+
+select,
+input[type="submit"] {
+    width: 20vw;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.signup-container .ri-close-line{
+    display: flex;
+    font-size: 3vw;
+    position: absolute;
+    right: 38%;
+    top: -.2vw;
+}
+/* // responsive */
+@media (max-width: 600px) {
+    #home{
+        height: 60vw;
+        overflow: hidden;
+    }
+    .center {
+        flex-direction: column;
+        height: 70vh;
+        width: 100vw;
+        gap: 5vw;
+    }
+
+    #center_left {
+        background-size: cover;
+        background-position: left;
+        width: 88vw;
+    }
+
+    .login-container {
+        width: 88vw;
+        margin-bottom: -15vw;
+    }
+
+    .footer {
+        width: 70vw;
+    }
+    .main{
+        overflow: hidden;
+    }
+    .footer_part-2{
+        width: 100vw;
+        display: flex;
+        background-color: rgb(217,217,217);
+
+    }
+    .footer_part-2 a {
+        font-size: .8rem;
+    }
+    .signup-container{
+        width: 300px;
+        height: 720px;
+        margin-top: 30vw;
+    }
+    select, input[type="submit"]{
+        width: 70vw;
+    }
+    .signup-container .ri-close-line{
+        display: flex;
+        font-size: 8vw;
+        position: absolute;
+        right: 13%;
+        top: 10vw;
+    }
 }
